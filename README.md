@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/portada_sin_fondo.png" alt="Traffic light icon" height="400"/>
+  <img src="assets/portada3.png" alt="Traffic light icon" height="400"/>
 </p>
 
 # 🧠 What is it?
 
-A traffic control scheme development system that enables the design of **value-based intelligent traffic lights** through reinforcement learning, evaluating their performance in a simulated urban traffic environment.
+A traffic control scheme development system that enables the design of **socially-aware intelligent traffic lights** through Reinforcement Learning. It allows for the optimization of multiple conflicting objectives—such as efficiency, fairness, and environmental impact, evaluating their performance in a simulated urban traffic environment
 
 ---
 
@@ -12,22 +12,24 @@ A traffic control scheme development system that enables the design of **value-b
 
 In the face of global urban congestion, **intelligent traffic lights** are emerging as a key tool, combining real-time data processing with autonomous decision-making to reduce traffic jams and waiting times.
 
-The analysis of adaptive traffic control systems is a growing field, with **reinforcement learning** techniques standing out. This paradigm enables traffic light agents to autonomously discover optimal policies through continuous interaction with the road environment, guided by reward signals that assess their behavior.
+The analysis of adaptive traffic control systems is a growing field, with reinforcement learning techniques standing out. This paradigm enables traffic light agents to autonomously discover optimal policies through continuous interaction with the road environment, guided by reward signals that assess their behavior.
 
-The flexibility in reward design allows the incorporation of **social values** beyond traditional efficiency goals, such as **sustainability**, **safety**, or **equity**. This leads to the concept of **value-based intelligent traffic lights**—systems explicitly guided by social considerations, selectively prioritizing values depending on specific urban needs.
+The flexibility in reward design allows the incorporation of broad **societal objectives** beyond traditional efficiency goals, such as **sustainability**, **safety**, or **equity**. This leads to the concept of **multi-objective intelligent traffic lights—systems** capable of navigating the trade-offs between conflicting considerations, selectively prioritizing specific outcomes depending on urban needs.
 
-This project addresses the challenge of designing and implementing value-based traffic control systems through a comprehensive approach:  
-1. Developing an integrated environment using the SUMO simulator for training and evaluation.  
-2. Implementing a multi-agent reinforcement learning algorithm with specialized reward signals to generate a **catalog of control schemes** aligned with different social values.  
+This project addresses the challenge of designing and implementing multi-criteria traffic control systems through a comprehensive approach:
+
+1. Developing an integrated environment using the SUMO simulator for training and evaluation.
+
+2. Implementing a multi-agent reinforcement learning algorithm with specialized reward signals to generate a catalog of control schemes aligned with diverse social preferences.
+
 3. Performing a rigorous comparative evaluation against traditional systems (fixed-time and heuristic-based adaptive models).
-
 ---
 
 ### 🎯 Project Goals
 
 - Build an integrated environment (SUMO + Gymnasium) to simulate and compare traffic light control policies based on **efficiency**, **sustainability**, and **modal equity**.
 - Evaluate from classic models (**fixed-time**), through **heuristic rule-based systems**, to advanced **deep reinforcement learning agents**.
-- Generate a catalog of RL agents with **differentiated value profiles** depending on the reward design.
+- Generate a catalog of RL agents exhibiting distinct trade-offs based on the reward configuration.
 
 ---
 
